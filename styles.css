@@ -1,16 +1,52 @@
-textarea{
-    width: 90%;
-    height: 10vh;
-    display: block;
-    margin: 1rem;
-    padding: 1rem;
-    background-color: rgb(250, 250, 140);
+textarea {
+  width: 90%;
+  height: 10vh;
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgb(250, 250, 140);
+  
 }
 
-#output{
-    border: 1px solid black;
-    height: 10vh;
-    width: 80%;
-    margin: 1rem;
+#output {
+  border: 1px solid black;
+  height: 10vh;
+  width: 90%;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgb(174, 245, 189);
+}
+
+body {
+  font-family: "Handlee", cursive;
+  margin: auto;
+  padding: 1rem;
+  max-width: 900px;
+}
+
+h1{
+    background-color: yellowgreen;
+    text-align: center;
+}
+button {
+  background-color: rgb(221, 97, 194);
+  font-family: "Handlee", cursive;
+  font-weight: bold;
+  color: black;
+  margin: 0 auto ;
+  padding: 1rem;
+  font-size: large;
+  display: block;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 90%;
     padding: 1rem;
+    background-color: yellowgreen;
+    text-align: center;
+    display: block;
+    margin: auto;
+    max-width: 900px;
 }
