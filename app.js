@@ -1,5 +1,6 @@
 //Get DOM elements of button, input and output
 var btnTranslate = document.querySelector("#btn-translate");
+var btnReset = document.querySelector("#btn-reset");
 var txtInput = document.querySelector("#txt-input");
 var outputDiv = document.querySelector("#output");
 
@@ -16,6 +17,7 @@ function errorHandler(error) {
 }
 
 btnTranslate.addEventListener("click", clickHandler);
+btnReset.addEventListener("click", resetItems);
 
 //Call Function when Translate button is clicked    
 function clickHandler() {
@@ -31,4 +33,10 @@ function clickHandler() {
       outputDiv.innerText = translatedText; //Output
     })
     .catch(errorHandler);
+}
+
+function resetItems(){
+  txtInput.value = "";
+  outputDiv.innerText = "";
+  
 }

@@ -50,3 +50,15 @@ footer {
     margin: auto;
     max-width: 900px;
 }
+
+#container {
+  text-align: center;
+}
+
+#btn-translate, #btn-reset{
+  display:inline-block;
+}
+
+body{
+  background-color: rgb(238, 240, 239);
+}
