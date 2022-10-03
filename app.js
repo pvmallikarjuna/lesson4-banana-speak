@@ -35,7 +35,9 @@ function clickHandler() {
     .catch(errorHandler);
 }
 
+
 function resetItems(){
+  
   txtInput.value = "";
   outputDiv.innerText = "";
   
