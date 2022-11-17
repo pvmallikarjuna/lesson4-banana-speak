@@ -27,6 +27,7 @@ body {
 h1{
     background-color: yellowgreen;
     text-align: center;
+    margin-top: 0.5rem;
 }
 button {
   background-color: rgb(221, 97, 194);
@@ -40,7 +41,6 @@ button {
 }
 
 footer {
-    position: fixed;
     bottom: 0;
     width: 90%;
     padding: 1rem;
